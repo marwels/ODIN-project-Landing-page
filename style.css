@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -109,4 +109,11 @@ a, a:link, a:visited, a:focus, a:hover, a:active {
 
 .white-section {
     padding: 15px 200px 80px 200px;
+}
+
+.white-section>h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
