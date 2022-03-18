@@ -95,7 +95,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    column-gap: 20px;
+    column-gap: 40px;
 }
 
 .illustration {
@@ -104,4 +104,9 @@ a, a:link, a:visited, a:focus, a:hover, a:active {
 
 .illustration>img {
     width: 100%;
+    border-radius: 15px;
+}
+
+.white-section {
+    padding: 15px 200px 80px 200px;
 }
