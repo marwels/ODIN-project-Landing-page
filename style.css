@@ -40,3 +40,14 @@ ul {
   a {
     text-decoration: none;
   }
+  .backpack {
+      height: 300px;
+  }
+  .dark-down {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: row;
+  }
+  .header-text {
+      flex: 1;
+  }
