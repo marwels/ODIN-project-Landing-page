@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
+    background-color: white;
 }
 
 .dark-section {
@@ -75,7 +76,7 @@ button {
     font-size: 18px;
     color: #E5E7EB;
     box-shadow: none;
-    border: 0px;
+    border-color: #3882F6;
     padding: 5px 20px;
 }
 
@@ -138,4 +139,16 @@ a, a:link, a:visited, a:focus, a:hover, a:active {
 .author {
     font-weight: bold;
     text-align: right;
+}
+
+.action-section {
+    background-color: #3882F6;
+    margin: 80px 100px;
+    border-radius: 10px;
+    padding: 50px 120px;
+    color: #E5E7EB;
+}
+
+.action-section>button {
+    border-color: white;
 }
