@@ -45,12 +45,16 @@ ul {
     text-decoration: none;
   }
   .backpack {
-      width: 450px;
+      flex: 1;
+  }
+  .imgbackpack {
+      width: 100%;
   }
   .dark-down {
       display: flex;
       align-items: flex-start;
       flex-direction: row;
+      column-gap: 20px;
   }
   .header-text {
       flex: 1;
@@ -71,3 +75,5 @@ ul {
     margin-inline-end: 0;
     line-height: 1.5em;
   }
+
+  
