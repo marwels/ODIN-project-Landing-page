@@ -33,7 +33,7 @@ body {
 
 .header-text > h1 {
     font-size: 48px;
-    font-weight:bolder;
+    font-weight: bolder;
     color: #F9FAF8;
 }
 ul {
@@ -54,4 +54,13 @@ ul {
   }
   .header-text {
       flex: 1;
+  }
+  button {
+      background-color: #3882F6;
+      border-radius: 5px;
+      font-size: 18px;
+      color:#E5E7EB;
+      box-shadow: none;
+      border: 0px;
+      padding: 5px 20px;
   }
