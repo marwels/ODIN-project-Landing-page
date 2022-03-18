@@ -147,8 +147,32 @@ a, a:link, a:visited, a:focus, a:hover, a:active {
     border-radius: 10px;
     padding: 50px 120px;
     color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
 }
 
-.action-section>button {
+.white-button {
     border-color: white;
+    width: fit-content;
+    height: fit-content;
+}
+
+.white-button-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.action-text>h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+.action-text>p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
