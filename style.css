@@ -64,3 +64,10 @@ ul {
       border: 0px;
       padding: 5px 20px;
   }
+  h1 {
+    margin-block-start: -0.25em;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    line-height: 1.5em;
+  }
